@@ -4,7 +4,8 @@
 #include<ctime>
 #include "main.h"
 
-using namespace Chang;
+//using namespace Chang;
+//void changeN(int);
 
 int main(int argc, const char** argv) {
 //1
@@ -26,6 +27,7 @@ for (int t = 0; t < u; t++) {
 
 int AR[5] {};
 for (int j = 0; j < 5; j++) {
+  //changeN(n);
   AR[j] = 5*n + rand() %15;
 if (AR[0] == (AR[1] + AR[2] + AR[3] + AR[4])) {
   std::cout << AR[0] << " = " << AR[1] << " + " << AR[2] << " + " << AR[3] << " + " << AR[4] << ". This true" << std::endl;
